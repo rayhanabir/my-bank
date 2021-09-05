@@ -1,0 +1,71 @@
+.banking-heading{
+    text-align: center;
+}
+
+
+.bank-section{
+    width: 80%;
+    margin: 0 auto;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+
+}
+.container h4{
+    font-size: 1.5em;
+}
+.container h2{
+    font-size: 2em;
+}
+
+.diposite{
+    background-color: rgba(41, 107, 107, 0.452);
+    text-align: center;
+    color: white;
+    border-radius: 7px;
+}
+.withdraw{
+    background-color: lightgreen;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+}
+.balance{
+    background-color: lightpink;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+}
+.input-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.input-area{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+
+}
+.deposite-area{
+    background-color: rgb(195, 161, 75);
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.withdraw-area{
+    background-color: lightslategray;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.common-button{
+    background-color: rgb(177, 66, 66);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin-top: 5px;
+}
